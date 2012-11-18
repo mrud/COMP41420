@@ -1,6 +1,6 @@
 import unittest
-from IPStorage import DB
-V4 = DB.IPv4
+from IPStorage import DB, IPv4
+V4 = IPv4
 
 class TestGenerate(unittest.TestCase):
 
